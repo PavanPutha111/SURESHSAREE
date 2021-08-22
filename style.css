@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* body {
+    background-image: url("images/Brand-logo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+} */
+
+.slide-pic {
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+.laptop-carousel {
+    width: 980px;
+    height: 500px;
+}
+
+.head-menu {
+    height: 250px;
+    background-image: url("images/Brand-logo.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#brand-logo {
+    margin-left: 20px;
+    width: 300px;
+    height: 120px;
+}
+
+#god-pic {
+    margin-bottom: 20px;
+    width: 250px;
+    height: 190px;
+}
+
+.pad-down {
+    margin-top: -25px;
+    margin-bottom: 10px;
+}
+
+.title-head {
+    height: 250px;
+    padding: 10px;
+    background: silver;
+}
+
+.whatsapp-icon-area {
+    margin-left: 15px;
+}
+
+.ph-no {
+    width: 200px;
+}
+
+
+/* images section start here */
+
+.saree-pics {
+    width: 300px;
+}
+
+.info-link {
+    cursor: pointer;
+}
+
+@media (min-width:750px) {
+    .mobile-header {
+        display: none;
+    }
+}
+
+@media (max-width:750px) {
+    .head-menu {
+        display: none;
+    }
+    /* .menu-bar {
+        display: none;
+    }
+    #brand-logo {
+        width: 120px;
+        height: 120px;
+    }
+    #god-pic {
+        width: 100px;
+        height: 100px;
+    } */
+    /* for mobile */
+    .mobile-pics {
+        width: 150px;
+    }
+    .mobile-header {
+        display: flexbox;
+        background-image: url("images/Brand-logo.jpeg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    .mobile-brand {
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+        margin-top: -10px;
+    }
+    .mobile-god {
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+    }
+    .mobile-carousel {
+        margin-top: 30px;
+        width: 300px;
+        height: 300px;
+    }
+    .grid-pics {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
